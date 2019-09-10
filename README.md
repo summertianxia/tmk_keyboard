@@ -4,6 +4,15 @@ This repository includes keyboard and converter firmware projects built with [`t
 
 The latest source code is available here: <http://github.com/tmk/tmk_keyboard>
 
+My customized HHKB
+-------
+#### The story
+Well, the story begins with me falling love with HHKB keyboard. My HHKB was replaced to Hasu board for bluetooth support and full programmable keys. Here's some useful links:
+Posts about the board (https://geekhack.org/index.php?topic=71517.0)
+Keymap editor(http://www.tmk-kbd.com/tmk_keyboard/editor/unimap/?hhkb_rn42)
+#### Problems
+If I flash the keyboard more than one time, I got the "dfu-programmer: no device present." error message sometimes. It's a commen error  (https://github.com/dfu-programmer/dfu-programmer/issues/33). I solved the problem by pressing the reset button on HHKB. 
+
 
 Updates
 -------
